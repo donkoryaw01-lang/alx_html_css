@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column; /* stack header, main, footer */
+  height: 100vh; /* full screen height */
+}
+main {
+  display: flex;
+  flex-direction: row; /* put article and aside side by side */
+  flex: auto; /* let main grow to take available space */
+}
+article {
+  flex: 2; /* takes 2 parts */
+  overflow-y: auto; /* scroll if content overflows */
+}
+
+aside {
+  flex: 1; /* takes 1 part */
+  overflow-y: auto;
+}
+header, footer {
+  background: lightgray;
+  padding: 1em;
+  text-align: center;
+}
