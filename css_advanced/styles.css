@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #f47cff;
+}
+
+.banner {
+  background: url("/css_advanced/Image/Object.png");
+    background-size: cover;   
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1093px;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* space between logo and links */
+  align-items: center;
+  padding: 20px 40px;  /* adjust padding as needed */
+}
+
+/* Logo styling */
+.navbar img {
+  height: 30px;  /* adjust as needed */
+  width: auto;
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;  /* space between links */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+  background: #555;
+  border-radius: 6px;
+}
+
+.banner-content {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 130px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.nav-span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 5rem;
+}
+
+.banner-content button {
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #fc8966;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.banner-content h2{
+    font-size: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 11rem;
+    color: #5f13c9;
+    font-weight: lighter;
+}
+
+.highlight {
+    font-size: 32px;
+    color: #C271FF;
+    font-weight:bold;
+    
+}
+
+.banner-pros{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.banner-pros h3{
+    color: #ffffff;
+}
+
+.banner-pros p{
+    color: #ffffff;
+}
+
+.img-three{
+    border-radius: 50%;
+}
+
+.testimonial{
+    background-color: #C271FF;
+    height: 50vh;
+    text-align: left;
+    display: flex;        
+    align-items: center;  
+    color: #ffffff;    
+    font-size: 15px;  
+    gap: 20px;
+    font-weight: bold;     
+}
+.testimonial img{
+    margin-left: 5rem;
+    padding-left: 5rem;
+}
+
+.popular{
+    margin: 5rem 10rem;
+    text-align: center;
+    background-color: #ffffff;
+  }
+
+  .popular h2{
+    font-size: 30px;
+    font-weight: 350;
+    padding-bottom: 5rem;
+  }
+
+  .popular-tutorials{
+    color: #C271FF;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .popular-tutorials-content{
+    display:flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    justify-content: center;
+
+  }
+
+  .popular-tutorials-content div h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .popular-tutorials-content div #paragraph{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    font-weight: 300;
+    color: #6d7075;
+    font-weight: 500;
+  }
+
+  .min-img-div{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 1rem;
+    justify-content: left;
+  }
+
+  .min-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    justify-content: left;
+  }
+
+  .min-img-text{
+    max-width: 400px;
+    color: #C271FF;
+  }
+
+  .star-div{
+    display: flex;
+    padding-top: 10px;
+    color: #C271FF;
+  }
+
+  #star-gray{
+    color: gray;
+  }
+
+  .star-div p{
+    padding-left: 7rem;
+    padding-top: 5px;
+    color: #C271FF;
+    font-weight: 500;
+  }
+
+  .free-membership{
+    background-color: #071629;
+    text-align: center;
+    height: 80vh;
+    color: #ffffff;
+  }
+
+  .free-membership h2{
+    font-size: 30px;
+    font-weight: 350;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 200;
+  }
+
+  .free-membership h2 span{
+    color: #C271FF;
+    font-weight: 500;
+  }
+
+  .border-right{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-content: left;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .free-membership button{
+    margin-top: 5rem;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .faq{
+    text-align: center;
+    margin: 5rem 10rem;
+    background: #ffffff;
+    height: 100vh;
+  }
+
+  .faq-content{
+    display: flex;        /* makes children side by side */
+    gap: 10rem;         /* space between children */
+
+  }
+  .faq h2{
+    font-size: 30px;
+    font-weight: 350;
+    padding-bottom: 5rem;
+  }
+  .faq div h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #0d0016;
+  }
+
+  .faq-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #6d7075;
+    font-weight: 500;
+  }
+
+  .footer{
+    background-color: #071629;
+    height: 37vh;
+    text-align: center;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+  }
+
+  .footer-logo-social{
+    display: flex;
+    align-items: right;
+    gap: 50rem;;
+  }
+
+  .footer img{
+    height: 30px;
+    width: auto;
+    margin-top: 5rem;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-top: 5rem;
+    
+  }
+
+  .copyrigt{
+    font-size: 14px;
+    font-weight: 300;
+    color: #6d7075;
+    margin: 5rem;
+  }
+
+
+
+
+
+  .popular-img-div{
+    position: relative;
+    display: inline-block;
+  }
+
+  .popular-img{
+   display: block;
+  }
+
+  .play-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+  }
