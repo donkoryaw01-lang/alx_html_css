@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column; /* stack header, main, footer */
+  height: 100vh; /* full screen height */
+}
+main {
+  display: flex;
+  flex-direction: row; /* put article and aside side by side */
+  flex: auto; /* let main grow to take available space */
+}
+article {
+  flex: 2; /* takes 2 parts */
+  overflow-y: auto; /* scroll if content overflows */
+}
+
+aside {
+  flex: 1; /* takes 1 part */
+  overflow-y: auto;
+}
+header, footer {
+  background: lightgray;
+  padding: 1em;
+  text-align: center;
+}
+/* Header styling */
+header {
+  background-color: #222;   /* Dark background */
+  color: white;
+  padding: 10px;
+}
+/* Make logo stand out */
+.logo {
+  font-size: 2rem;         /* Bigger than normal text */
+  color: gold;             /* Make it shiny */
+  margin-right: 15px;      /* Space between logo and nav links */
+}
+/* Navigation links */
+header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+header ul li a:hover {
+  color: #ff6600; /* Highlight when hovered */
+}
+/* Body background */
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+/* Article area */
+article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Aside area */
+aside {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
